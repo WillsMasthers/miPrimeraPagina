@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container-nav">
+            <nav class="navbar" role="navigation">
+                <a href="index.html" class="brand"><h2>Mi página web</h2></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="servicios.html">Services</a></li>
+                    <li><a href="contactos.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="button-menu-toggle">Menu</button>
+        </div>
+        <section id="Servicios"></section>
+        <main class="container">
+            <div class="row justify-content-center">
+                <div class="column">
+                    <h1>Bienvenidos a mi primer WebSite</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <h2>Un subtitulo h2</h2>
+                    <p>Soy [Tu nombre], ¡Y esta es mi primera pagina web</p>
+                    <p>
+                        Estoy aprendiendo desarrolo web para crear sitios web
+                        visualmete atrapantes y funcionales.
+                    </p>
+                </div>
+                <div class="column">
+                    <h2>Otro subtitulo h2</h2>
+                    <p>
+                        A lo largo de este curso, estare aprendiendo HTML, CSS y
+                        JavaSript. estos lenguajes me ayudaran a crear una base
+                        solida en el desarrolo web front-end
+                    </p>
+                </div>
+                <div class="column">
+                    <h2>Otro subtitulo h2</h2>
+                    <p>
+                        A lo largo de este curso, estare aprendiendo HTML, CSS y
+                        JavaSript. estos lenguajes me ayudaran a crear una base
+                        solida en el desarrolo web front-end
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <h2>Un subtitulo h2</h2>
+                    <p>Soy [Tu nombre], ¡Y esta es mi primera pagina web</p>
+                    <p>
+                        Estoy aprendiendo desarrolo web para crear sitios web
+                        visualmete atrapantes y funcionales.
+                    </p>
+                </div>
+                <div class="column">
+                    <h2>Otro subtitulo h2</h2>
+                    <p>
+                        A lo largo de este curso, estare aprendiendo HTML, CSS y
+                        JavaSript. estos lenguajes me ayudaran a crear una base
+                        solida en el desarrolo web front-end
+                    </p>
+                </div>
+            </div>
+        </main>
+        <section class="container">
+            <div class="row">
+                <div class="column">
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/qWcwFMAqpME"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                    ></iframe>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="row">
+                <div class="column">
+                    <a
+                        class="btn"
+                        href="https://google.com"
+                        onclick="showAlertExit()"
+                    >
+                        <p>Booton link</p></a
+                    >
+
+                    <button onclick="showAlert()">
+                        ¡Haz clic en mi para una alerta!
+                    </button>
+                    <button class="suma" onclick="suma(3,4)">+</button>
+                    <button onclick="resta(7,9)">-</button>
+                    <button onclick="mensajeError(`Esto es un mensaje 'X'`)">
+                        ¡Muestra un mensaje!
+                    </button>
+                    <button onclick="showArreglo(['Jose', 'Maria', 'Pepe'])">
+                        ¡Haz clic en mi para una alerta!
+                    </button>
+                    <button onclick="suma(2,2)">
+                        <img
+                            src="data:image/png;base64,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"
+                            alt=""
+                        />
+                    </button>
+                </div>
+            </div>
+        </section>
+    </body>
+    <script src="script.js"></script>
+</html>
