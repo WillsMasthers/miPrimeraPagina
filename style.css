@@ -115,7 +115,12 @@ li {
     list-style-type: none;
 }
 
-li a {
+a.youtube {
+    color: red;
+}
+
+li a,
+nav a {
     color: white;
     text-decoration: none;
 }
