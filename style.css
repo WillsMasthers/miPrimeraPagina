@@ -36,6 +36,9 @@ h1 {
     align-items: center;
 }
 
+.greeting {
+    text-align: center;
+}
 .column {
     /* border: solid red 1px; */
     flex: 100%;
@@ -112,7 +115,7 @@ li {
     list-style-type: none;
 }
 
-a {
+li a {
     color: white;
     text-decoration: none;
 }
@@ -124,6 +127,12 @@ a {
 
 .button-menu-toggle {
     display: none;
+}
+
+iframe {
+    aspect-ratio: 16 / 9;
+    height: 100%;
+    width: 100%;
 }
 
 @media (max-width: 768px) {
